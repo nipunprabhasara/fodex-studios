@@ -15,6 +15,7 @@
   "type": "commonjs",
   "dependencies": {
     "@emailjs/browser": "^5.0.3",
+    "@vercel/analytics": "^2.0.1",
     "@vitejs/plugin-react": "^6.1.2",
     "framer-motion": "^14.1.0",
     "lucide-react": "^1.55.0",

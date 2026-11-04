@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useInView } from 'framer-motion';
 import { ArrowRight, Play, X, Menu, ArrowUpRight, MonitorPlay, Paintbrush, Clapperboard, Layers, Send, CheckCircle, AlertCircle, Loader2, Maximize2, Sliders, Zap, Volume2, Sparkles, Cpu, Gauge } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const THEME = {
   bgBase: '#08090B',
@@ -2031,6 +2032,7 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen selection:bg-[#C6FF4D] selection:text-[#08090B]">
+      <Analytics />
       
       {/* Cinematic Film Grain Overlay */}
       <div 
